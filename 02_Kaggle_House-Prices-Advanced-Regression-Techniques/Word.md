@@ -1,0 +1,63 @@
+<h3>Data fields(Japanese)</h3>
+
+- SalePrice(Target):家の販売価格(＄)
+- MSSubClass:建物の等級
+- MSZoning:居住地の人口密度？RL,RM,C(all),FV,RHがある。
+    - RL Residential Low Density
+    - RM Residential Medium Density
+    - FV Floating Village Residential　　（水の上に浮いているような住居）
+    - RH Residential High Density
+    - C Commercial
+- LotFrontage:Streetに面した建物の長さ(feet)
+- LotArea:敷地面積(square feet)
+- Street:道路のタイプ
+    - Pave:舗装されている
+    - Grvl:砂利道
+- Alley:路地のタイプ
+    - Pave:舗装されている
+    - Grvl:砂利道
+    
+- LotShape:土地の形状
+    - Reg Regular:長方形
+    - IR1 Slightly irregular:台形
+    - IR2 Moderately Irregular:特殊(L字など)
+    - IR3 Irregular:特殊
+- LandContour:家までの傾斜状況
+    - Lvl:平坦
+    - Bnk:傾斜あり
+    - HLS:道路から見て左右に傾斜あり
+    - Low:窪地
+- Utilities:インフラ（電気、下水道、etc...)
+- LotConfig:よくわかんない
+- LandSlope:土地傾斜？
+- Neighborhood:地域名
+- Condition:周りの情報(公園など)
+- BldgType:住居タイプ(１世帯用など)
+- HouseStyle:一階建てとか２階建てとか
+- OverallQual:わかんない
+- OverallCond:わかんない
+- YearBuild:築年数
+- YearRemodAdd:改築年
+- RoofStyle:屋根タイプ
+- RoofMatl:屋根材質
+- Exerior1,2:外壁の材質２種類もあり
+- MasVnrType: Masonry veneer type　（レンガ壁の積み方）
+- MasVnrArea: Masonry veneer area in square feet　（レンガ壁の広さ）
+- ExterQual: 外壁などのQualtiy
+- ExterCond: 外壁などのCondition  (Overall Quality / Condition の内数？）
+- Foundation: Type of foundation　（基礎）
+- BsmtQual: Evaluates the height of the basement　（地下室の天井の高さ）
+- BsmtCond: Evaluates the general condition of the basement　(地下室の状態)
+- BsmtExposure: Refers to walkout or garden level walls
+- BsmtFinType1: Rating of basement finished area (地下室が居住可能か？)
+- BsmtFinType2: Rating of basement finished area (if multiple types)
+- BsmtFinSF1: Type 1 finished square feet
+- BsmtFinSF2: Type 2 finished square feet
+- BsmtUnfSF: Unfinished square feet of basement area
+- TotalBsmtSF:地下室面積
+- HeatingQC: Heating quality and condition
+    - Ex:Excellent
+    - Gd:Good
+    - TA:Typical & Average
+    - Fa:Fair
+    - Po:Poor 
